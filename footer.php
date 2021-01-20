@@ -10,10 +10,23 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-$container = get_theme_mod( 'understrap_container_type' );
-?>
+
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
+
+
+<footer id="footer">
+	<div class"container">
+		<div class="footer-section n-footer">
+			</div>
+		<div class="footer-section n-footer-sec">
+			</div>
+
+</div>
+</footer>
+
+
+
 
 <div class="wrapper" id="wrapper-footer">
 
