@@ -16,80 +16,45 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
 <footer class="footer">
-	<div class="container">
+	<div class="container upper-footer">
 		<div class="row">
-		<div class="footer-section n-footer">
-
-		<div class="col-12 col-sm-4">
+			<div class="footer-section n-footer">
+				<div class="col-12 col-sm-4">
 						   
-		<span class="dd-footer-title eyebrow-title">SOCIAL</span>
-
-                            <ul class="social-wrapper footer-links">
-                                                                    <li>
-                                                                                    <a rel="nofollow" href="https://www.linkedin.com/company/" target="_blank" title="">
-                                                <span>
-                                                    LinkedIn
-                                                </span>
-                                            </a>
-                                                                            </li>
-                                                                    <li>
-                                                                                    <a rel="nofollow" href="https://www.facebook.com//" target="_blank" title="">
-                                                <span>
-                                                    Facebook
-                                                </span>
-                                            </a>
-                                                                            </li>
-                                                                    <li>
-                                                                                    <a rel="nofollow" href="https://www.instagram.com//" target="_blank" title="">
-                                                <span>
-                                                    Instagram
-                                                </span>
-                                            </a>
-                                                                            </li>
-                                                                    <li>
-                                                                                    <a rel="nofollow" href="https://github.com/" target="_blank" title="">
-                                                <span>
-                                                    Github
-                                                </span>
-                                            </a>
-                                                                            </li>
-                                                            </ul>
-
-                        </div>
-						
-
-
-
-
-
-		
-			</div>
+					<span class="dd-footer-title eyebrow-title">SOCIAL</span>
+                        <ul class="social-wrapper footer-links">
+                            <li>
+                            	<a rel="nofollow" href="https://www.linkedin.com/company/" target="_blank" title="">
+                                    <span>LinkedIn</span>
+                                </a>
+                            </li>                                          
+						</ul>	
+                </div>
 			</div>
 		</div>
-			<div class="container">
+	</div>
+	<div class="container lower-footer">
 		<div class="row">
-		<div class="footer-section n-footer-sec">
-		<div class="col-12 col-sm-4">
-		<?php
-				wp_nav_menu(
-					array(
-						'theme_location'  => 'footer-menu',
-						'container_class' => 'col-auto col-static d-none d-md-block',
-						'container_id'    => '',
-						'menu_class'      => 'n-footer',
-						'fallback_cb'     => '',
-						'menu_id'         => 'footer-menu',
-						'depth'           => 1,
-						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-					)
-				);
-				?>
-				</div>
-		</div>
-</div>
+			<div class="footer-section n-footer-sec">
+				<div class="col-12 col-sm-6">
+					<?php
+					wp_nav_menu(
+						array(
+							'theme_location'  => 'footer-menu',
+							'container_class' => 'col-auto col-static d-none d-md-block',
+							'container_id'    => '',
+							'menu_class'      => 'n-footer',
+							'fallback_cb'     => '',
+							'menu_id'         => 'footer-menu',
+							'depth'           => 1,
+							'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+						)
+					);
+					?>
+                </div>
 			</div>
-</div>
-</div>
+		</div>
+	</div>
 </footer>
 
 
