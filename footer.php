@@ -17,7 +17,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 <footer id="footer">
-	<div class"container">
+	<div class="container">
 		<div class="footer-section n-footer">
 
 		<div class="col-12 col-sm-4">
