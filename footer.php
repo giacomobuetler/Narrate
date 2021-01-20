@@ -64,6 +64,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		
 			</div>
+			</div>
+		</div>
+			<div class="container">
+		<div class="row">
 		<div class="footer-section n-footer-sec">
 		<div class="col-12 col-sm-4">
 		<?php
@@ -80,6 +84,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				);
 				?>
+				</div>
+		</div>
 </div>
 			</div>
 </div>
