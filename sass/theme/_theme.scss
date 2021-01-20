@@ -86,3 +86,24 @@ ol, ul {
         font-size: 20px;
     }
 }
+
+
+
+/**
+ * Menu styles needed to make JS work
+ */
+ .dropdown:hover>.dropdown-menu {
+    display: block;
+    //For animation
+    max-height: 400px;
+    opacity: 1;
+  }
+  .dropdown>.dropdown-menu {
+    margin: 0;
+    // For animation
+    transition: all 0.3s;
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+  }
