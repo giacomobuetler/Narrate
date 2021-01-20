@@ -65,6 +65,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 		
 			</div>
 		<div class="footer-section n-footer-sec">
+		<div class="col-12 col-sm-4">
+		<?php
+				wp_nav_menu(
+					array(
+						'theme_location'  => 'footer-menu',
+						'container_class' => 'col-auto col-static d-none d-md-block',
+						'container_id'    => '',
+						'menu_class'      => 'n-footer',
+						'fallback_cb'     => '',
+						'menu_id'         => 'footer-menu',
+						'depth'           => 1,
+						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+					)
+				);
+				?>
+</div>
 			</div>
 </div>
 </div>
