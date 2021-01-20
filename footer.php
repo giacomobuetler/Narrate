@@ -17,6 +17,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper">
 <footer class="footer">
+	<div class="container">
+		<div class="row">
 		<div class="footer-section n-footer">
 
 		<div class="col-12 col-sm-4">
@@ -65,7 +67,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 		<div class="footer-section n-footer-sec">
 			</div>
-
+</div>
+</div>
 </footer>
 </div>
 
