@@ -1,3 +1,15 @@
+.n-header {
+    z-index: 200;
+    width: 100vw;
+    background: #fff;
+    padding: 12px 0;
+    height: 60px;
+    -webkit-transition: height .6s ease,padding .6s ease,opacity 1s cubic-bezier(.77,0,.175,1) .8s,-webkit-box-shadow .6s ease;
+    transition: height .6s ease,padding .6s ease,opacity 1s cubic-bezier(.77,0,.175,1) .8s,-webkit-box-shadow .6s ease;
+    transition: box-shadow .6s ease,height .6s ease,padding .6s ease,opacity 1s cubic-bezier(.77,0,.175,1) .8s;
+    transition: box-shadow .6s ease,height .6s ease,padding .6s ease,opacity 1s cubic-bezier(.77,0,.175,1) .8s,-webkit-box-shadow .6s ease;
+}
+
 .n-megamenu {
     display: block;
 }
@@ -30,4 +42,10 @@ ol, ul {
 }
 .nav-link {
   padding: 0;
+}
+
+@media (min-width: 960px)
+.n-header {
+    padding: 40px 0;
+    height: 120px;
 }
