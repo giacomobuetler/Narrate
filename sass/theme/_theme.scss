@@ -44,8 +44,9 @@ ol, ul {
   padding: 0;
 }
 
-@media (min-width: 960px)
-.n-header {
-    padding: 40px 0;
-    height: 120px;
+@media (min-width: 960px){
+    .n-header {
+        padding: 40px 0;
+        height: 120px;
+    }
 }
