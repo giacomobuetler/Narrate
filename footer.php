@@ -15,7 +15,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="wrapper">
 <footer class="footer">
 	<div class="container">
 		<div class="row">
@@ -70,7 +69,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 </div>
 </footer>
-</div>
 
 
 
