@@ -1,1 +1,33 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+.n-megamenu {
+    display: block;
+}
+.n-megamenu {
+    float: right;
+}
+.n-megamenu>li {
+    float: left;
+    margin-left: 31px;
+    line-height: 1.4;
+    -webkit-transition: opacity .25s ease,visibility 0s 0s;
+    transition: opacity .25s ease,visibility 0s 0s;
+    opacity: 1;
+    visibility: visible;
+}
+.n-megamenu>li>a {
+    font-family: 'Inter';
+    font-size: 23px;
+    color: #212529;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+ol, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-link {
+  padding: 0;
+}
