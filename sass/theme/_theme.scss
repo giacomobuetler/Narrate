@@ -9,6 +9,10 @@
     transition: box-shadow .6s ease,height .6s ease,padding .6s ease,opacity 1s cubic-bezier(.77,0,.175,1) .8s;
     transition: box-shadow .6s ease,height .6s ease,padding .6s ease,opacity 1s cubic-bezier(.77,0,.175,1) .8s,-webkit-box-shadow .6s ease;
 }
+.n-header {
+    -webkit-box-shadow: 0 1px 1px rgba(31,31,31,.11);
+    box-shadow: 0 1px 1px rgba(31,31,31,.11);
+}
 
 .n-megamenu {
     display: block;
@@ -44,9 +48,8 @@ ol, ul {
   padding: 0;
 }
 
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-    cursor: pointer;
-}
+
+
 
 .call-to-action-button {
     position: fixed;
