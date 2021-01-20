@@ -19,6 +19,50 @@ $container = get_theme_mod( 'understrap_container_type' );
 <footer id="footer">
 	<div class"container">
 		<div class="footer-section n-footer">
+
+		<div class="col-12 col-sm-4">
+						   
+		<span class="dd-footer-title eyebrow-title">SOCIAL</span>
+
+                            <ul class="social-wrapper footer-links">
+                                                                    <li>
+                                                                                    <a rel="nofollow" href="https://www.linkedin.com/company/" target="_blank" title="">
+                                                <span>
+                                                    LinkedIn
+                                                </span>
+                                            </a>
+                                                                            </li>
+                                                                    <li>
+                                                                                    <a rel="nofollow" href="https://www.facebook.com//" target="_blank" title="">
+                                                <span>
+                                                    Facebook
+                                                </span>
+                                            </a>
+                                                                            </li>
+                                                                    <li>
+                                                                                    <a rel="nofollow" href="https://www.instagram.com//" target="_blank" title="">
+                                                <span>
+                                                    Instagram
+                                                </span>
+                                            </a>
+                                                                            </li>
+                                                                    <li>
+                                                                                    <a rel="nofollow" href="https://github.com/" target="_blank" title="">
+                                                <span>
+                                                    Github
+                                                </span>
+                                            </a>
+                                                                            </li>
+                                                            </ul>
+
+                        </div>
+						
+
+
+
+
+
+		
 			</div>
 		<div class="footer-section n-footer-sec">
 			</div>
