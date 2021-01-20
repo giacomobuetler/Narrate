@@ -41,6 +41,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 </div><!-- wrapper end -->
 
+<button class="call-to-action-button">
+	<div class="call-to-action-text">
+		Kontaktieren Sie uns
+		</div>
+		</button>
+
 </div><!-- #page we need this extra closing tag here -->
 
 <?php wp_footer(); ?>

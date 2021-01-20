@@ -44,9 +44,39 @@ ol, ul {
   padding: 0;
 }
 
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+.call-to-action-button {
+    position: fixed;
+    z-index: 10000;
+    border-radius: 30px;
+    background: #ff5c5c;
+    bottom: 15px;
+    right: 15px;
+    color: #fff;
+    line-height: 0;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid #ff5c5c;
+    min-width: 52px;
+    max-width: 300px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
 @media (min-width: 960px){
     .n-header {
         padding: 40px 0;
         height: 120px;
+    }
+
+    .call-to-action-button {
+        border-radius: 30px;
+        padding: 25px;
+        font-size: 20px;
     }
 }
