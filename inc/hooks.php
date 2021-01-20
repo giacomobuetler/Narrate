@@ -49,3 +49,8 @@ if ( ! function_exists( 'understrap_add_site_info' ) ) {
 		echo apply_filters( 'understrap_site_info_content', $site_info ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 }
+
+function register_my_menu() {
+	register_nav_menu('footer-menu',__( ' Menu' ));
+	}
+	add_action( 'init', 'register_my_menu' );
