@@ -49,7 +49,16 @@ ol, ul {
 }
 
 
+/* Footer
+*/
+.footer {
+    background: black;
+    color: #fff;
+}
 
+.footer a {
+    color: #fff;
+}
 
 .call-to-action-button {
     position: fixed;
@@ -74,6 +83,10 @@ ol, ul {
     background: #fff;
 }
 
+
+
+
+
 @media (min-width: 960px){
     .n-header {
         padding: 40px 0;
@@ -86,6 +99,8 @@ ol, ul {
         font-size: 20px;
     }
 }
+
+
 
 
 
