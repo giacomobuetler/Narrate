@@ -69,7 +69,10 @@ ol, ul {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
-
+.call-to-action-button:hover {
+    color: #ff5c5c;
+    background: #fff;
+}
 
 @media (min-width: 960px){
     .n-header {
