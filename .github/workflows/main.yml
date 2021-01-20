@@ -14,6 +14,6 @@ jobs:
         server: giacomobuetler.com
         server-dir: public_html/gmbh/app/wp-content/themes
         username: giacomob
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.ftp_pw }}
         protocol: ftp
         port: 21
