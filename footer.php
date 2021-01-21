@@ -43,7 +43,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					wp_nav_menu(
 						array(
 							'theme_location'  => 'footer-menu',
-							'container_class' => 'col-auto col-static d-none d-md-block',
+							'container_class' => 'd-md-block',
 							'container_id'    => '',
 							'menu_class'      => 'n-footer',
 							'fallback_cb'     => '',
