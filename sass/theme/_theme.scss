@@ -39,6 +39,32 @@
     width: 100%;
     overflow: hidden;
 }
+
+.n-footer {
+    display: block;
+}
+.n-footer {
+    float: right;
+}
+.n-footer>li {
+    float: left;
+    margin-left: 31px;
+    line-height: 1.4;
+    -webkit-transition: opacity .25s ease,visibility 0s 0s;
+    transition: opacity .25s ease,visibility 0s 0s;
+    opacity: 1;
+    visibility: visible;
+}
+.n-footer>li>a {
+    font-family: 'Inter';
+    font-size: 23px;
+    color: #212529;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
 ol, ul {
     list-style-type: none;
     margin: 0;
