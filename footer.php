@@ -37,11 +37,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 <footer class="footer lower-footer">
 	<div class="container">
 		<div class="row">
-			<div class="footer-section n-footer-sec">
-				<div class="col-12 col-sm-6">
-				© Narrate - Full-Service Agentur. Alle Rechte vorbehalten.
+				<div class="col">
+				© Narrate - Digitalagentur
 				</div>
-				<div class="col-12 col-sm-6">
+				<div class="col">
 						<?php
 						wp_nav_menu(
 							array(
@@ -57,7 +56,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 						);
 						?>
 					</div>
-			</div>
 		</div>
 	</div>
 </footer>
