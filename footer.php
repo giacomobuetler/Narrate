@@ -39,21 +39,24 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row">
 			<div class="footer-section n-footer-sec">
 				<div class="col-12 col-sm-6">
-					<?php
-					wp_nav_menu(
-						array(
-							'theme_location'  => 'footer-menu',
-							'container_class' => 'd-md-block',
-							'container_id'    => '',
-							'menu_class'      => 'n-footer',
-							'fallback_cb'     => '',
-							'menu_id'         => 'footer-menu',
-							'depth'           => 1,
-							'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-						)
-					);
-					?>
-                </div>
+				© Narrate - Full-Service Agentur. Alle Rechte vorbehalten.
+				</div>
+				<div class="col-12 col-sm-6">
+						<?php
+						wp_nav_menu(
+							array(
+								'theme_location'  => 'footer-menu',
+								'container_class' => 'd-md-block',
+								'container_id'    => '',
+								'menu_class'      => 'n-footer',
+								'fallback_cb'     => '',
+								'menu_id'         => 'footer-menu',
+								'depth'           => 1,
+								'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+							)
+						);
+						?>
+					</div>
 			</div>
 		</div>
 	</div>
