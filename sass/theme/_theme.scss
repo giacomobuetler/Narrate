@@ -267,3 +267,44 @@ ul {
     display: block;
     margin-bottom: 16px;
 }
+
+
+/* Logos */
+
+.pane_heading-is-centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pane_heading {
+    position: relative;
+    z-index: 1;
+    max-width: 46rem;
+}
+
+.pane_heading_caption {
+    font-weight: 700;
+    letter-spacing: -.02em;
+}
+
+.pane_heading_caption {
+    font-weight: 600;
+    overflow-wrap: break-word;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .45);
+}
+
+.home_logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.home_logos_logo {
+    margin: 1.5rem;
+}
