@@ -4416,3 +4416,200 @@
 
 })));
 //# sourceMappingURL=bootstrap.js.map
+
+
+
+(window.webpackJsonp = window.webpackJsonp || []).push([["appAboveTheFold"], {
+  "5juD": function(e, t, i) {},
+  Fi5z: function(e, t, i) {
+      "use strict";
+      i.r(t);
+      i("5juD");
+      function n(e, t) {
+          for (var i = 0; i < t.length; i++) {
+              var n = t[i];
+              n.enumerable = n.enumerable || !1,
+              n.configurable = !0,
+              "value"in n && (n.writable = !0),
+              Object.defineProperty(e, n.key, n)
+          }
+      }
+      i("I6/X");
+      var o = function() {
+          function e() {
+              !function(e, t) {
+                  if (!(e instanceof t))
+                      throw new TypeError("Cannot call a class as a function")
+              }(this, e),
+              this.headerVideoWrapper = document.querySelector(".header-video-wrapper"),
+              this.headerVideoWrapper && (this.headerVideo = this.headerVideoWrapper.querySelector(".header-video video"),
+              this.btnMute = this.headerVideoWrapper.querySelector(".js-header-video-mute"),
+              this.btnUnmute = this.headerVideoWrapper.querySelector(".js-header-video-unmute"),
+              this.setSourceByBreakpoint(),
+              this.initMuteButtons(),
+              window.addEventListener("resize", this.setSourceByBreakpoint.bind(this)),
+              window.addEventListener("orientationchange", this.setSourceByBreakpoint.bind(this)),
+              this.initVideoLoadingAnimation())
+          }
+          var t, i, o;
+          return t = e,
+          (i = [{
+              key: "initVideoLoadingAnimation",
+              value: function() {
+                  var e = this.headerVideoWrapper.querySelector(".dachcom-animation .video-loading-svg .loading-stroke")
+                    , t = 0;
+                  this.headerVideo.addEventListener("loadstart", (function() {
+                      document.body.classList.add("header-video-is-loading")
+                  }
+                  )),
+                  this.headerVideo.addEventListener("progress", (function() {
+                      t >= 100 || (t += 20,
+                      e.style.strokeDashoffset = 2350 - 23.5 * t)
+                  }
+                  )),
+                  this.headerVideo.addEventListener("canplaythrough", this.videoCanPlay.bind(this)),
+                  setTimeout(this.headerVideoInit.bind(this), 500)
+              }
+          }, {
+              key: "videoCanPlay",
+              value: function() {
+                  this.headerVideo.play(),
+                  document.body.classList.add("header-video-is-loaded"),
+                  document.body.classList.remove("header-video-is-loading"),
+                  this.headerVideoInit()
+              }
+          }, {
+              key: "headerVideoInit",
+              value: function() {
+                  document.body.classList.add("header-video-init")
+              }
+          }, {
+              key: "setSourceByBreakpoint",
+              value: function() {
+                  var e = window.innerWidth
+                    , t = document.createElement("source");
+                  t.setAttribute("type", "video/mp4"),
+                  t.setAttribute("src", this.headerVideo.dataset.sourceDesktop),
+                  this.headerVideo.dataset.sourceMobile && e <= 800 && t.setAttribute("src", this.headerVideo.dataset.sourceMobile),
+                  this.headerVideo.querySelector("source") && t.getAttribute("src") === this.headerVideo.querySelector("source").getAttribute("src") || (this.headerVideo.innerHTML = "",
+                  this.headerVideo.appendChild(t),
+                  this.headerVideo.load())
+              }
+          }, {
+              key: "initMuteButtons",
+              value: function() {
+                  var e = this;
+                  this.btnUnmute.classList.add("hidden"),
+                  this.btnMute.addEventListener("click", (function() {
+                      e.headerVideo.muted = !1,
+                      this.classList.add("hidden"),
+                      e.btnUnmute.classList.remove("hidden")
+                  }
+                  )),
+                  this.btnUnmute.addEventListener("click", (function() {
+                      e.headerVideo.muted = !0,
+                      this.classList.add("hidden"),
+                      e.btnMute.classList.remove("hidden")
+                  }
+                  ))
+              }
+          }]) && n(t.prototype, i),
+          o && n(t, o),
+          e
+      }();
+      document.addEventListener("DOMContentLoaded", (function() {
+          new o
+      }
+      ))
+  },
+  "I6/X": function(e, t) {
+      !function() {
+          "use strict";
+          if ("undefined" != typeof window) {
+              var e = window.navigator.userAgent.match(/Edge\/(\d{2})\./)
+                , t = !!e && 16 <= parseInt(e[1], 10);
+              if ("objectFit"in document.documentElement.style == 0 || t) {
+                  var i = function(e) {
+                      var t = e.parentNode;
+                      !function(e) {
+                          var t = window.getComputedStyle(e, null)
+                            , i = t.getPropertyValue("position")
+                            , n = t.getPropertyValue("overflow")
+                            , o = t.getPropertyValue("display");
+                          i && "static" !== i || (e.style.position = "relative"),
+                          "hidden" !== n && (e.style.overflow = "hidden"),
+                          o && "inline" !== o || (e.style.display = "block"),
+                          0 === e.clientHeight && (e.style.height = "100%"),
+                          -1 === e.className.indexOf("object-fit-polyfill") && (e.className = e.className + " object-fit-polyfill")
+                      }(t),
+                      function(e) {
+                          var t = window.getComputedStyle(e, null)
+                            , i = {
+                              "max-width": "none",
+                              "max-height": "none",
+                              "min-width": "0px",
+                              "min-height": "0px",
+                              top: "auto",
+                              right: "auto",
+                              bottom: "auto",
+                              left: "auto",
+                              "margin-top": "0px",
+                              "margin-right": "0px",
+                              "margin-bottom": "0px",
+                              "margin-left": "0px"
+                          };
+                          for (var n in i)
+                              t.getPropertyValue(n) !== i[n] && (e.style[n] = i[n])
+                      }(e),
+                      e.style.position = "absolute",
+                      e.style.height = "100%",
+                      e.style.width = "auto",
+                      e.clientWidth > t.clientWidth ? (e.style.top = "0",
+                      e.style.marginTop = "0",
+                      e.style.left = "50%",
+                      e.style.marginLeft = e.clientWidth / -2 + "px") : (e.style.width = "100%",
+                      e.style.height = "auto",
+                      e.style.left = "0",
+                      e.style.marginLeft = "0",
+                      e.style.top = "50%",
+                      e.style.marginTop = e.clientHeight / -2 + "px")
+                  }
+                    , n = function(e) {
+                      if (void 0 === e || e instanceof Event)
+                          e = document.querySelectorAll("[data-object-fit]");
+                      else if (e && e.nodeName)
+                          e = [e];
+                      else {
+                          if ("object" != typeof e || !e.length || !e[0].nodeName)
+                              return !1;
+                          e = e
+                      }
+                      for (var n = 0; n < e.length; n++)
+                          if (e[n].nodeName) {
+                              var o = e[n].nodeName.toLowerCase();
+                              if ("img" === o) {
+                                  if (t)
+                                      continue;
+                                  e[n].complete ? i(e[n]) : e[n].addEventListener("load", (function() {
+                                      i(this)
+                                  }
+                                  ))
+                              } else
+                                  "video" === o ? 0 < e[n].readyState ? i(e[n]) : e[n].addEventListener("loadedmetadata", (function() {
+                                      i(this)
+                                  }
+                                  )) : i(e[n])
+                          }
+                      return !0
+                  };
+                  "loading" === document.readyState ? document.addEventListener("DOMContentLoaded", n) : n(),
+                  window.addEventListener("resize", n),
+                  window.objectFitPolyfill = n
+              } else
+                  window.objectFitPolyfill = function() {
+                      return !1
+                  }
+          }
+      }()
+  }
+}, [["Fi5z", "runtime"]]]);
