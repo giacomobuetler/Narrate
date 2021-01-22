@@ -34,8 +34,6 @@ $(document).ready(function(){
     });
 });     
 </script>
-<div id="wrapper-navbar">
-
 
 		<header id="header" class="n-header">
 
@@ -89,4 +87,3 @@ $(document).ready(function(){
 			</div>
 			<?php endif; ?>
 </header>
-</div>
