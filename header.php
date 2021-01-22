@@ -89,3 +89,4 @@ $(document).ready(function(){
 			</div>
 			<?php endif; ?>
 </header>
+</div>
