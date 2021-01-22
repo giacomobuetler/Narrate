@@ -146,6 +146,7 @@ ol, ul {
     height: 100%;
 }
 .header-video-init .header-video-wrapper .header-video {
+    height: calc(88vh - 120px);
     top: 60px;
 }
 .header-video-wrapper .header-video {
@@ -164,9 +165,6 @@ ol, ul {
     transform: scale(1);
 }
 .header-video-wrapper .header-video video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     background: #1f1f1f;
