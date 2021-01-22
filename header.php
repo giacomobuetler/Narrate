@@ -41,9 +41,7 @@ $(document).ready(function(){
 
 
 
-		<?php if ( 'container' === $container ) : ?>
-			<div class="container">
-		<?php endif; ?>
+		<div class="container">
 		<div class="row justify-content-between align-items-center flex-nowrap">
 
 					<?php if ( ! has_custom_logo() ) { ?>
@@ -55,7 +53,7 @@ $(document).ready(function(){
 						<?php else : ?>
 							<div class="col-auto">
 							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
-
+							</div>
 						<?php endif; ?>
 
 						<?php
