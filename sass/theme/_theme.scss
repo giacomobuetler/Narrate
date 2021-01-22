@@ -163,6 +163,6 @@ ol, ul {
 }
 
 .header-video-wrapper .header-video {
-    height: calc(88vh - 120px);
+    height: calc(88vh - 120px) !important;
     top: 60px;
 }
