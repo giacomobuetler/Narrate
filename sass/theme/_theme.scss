@@ -146,7 +146,7 @@ ol, ul {
 }
 .header-video-init .header-video-wrapper .header-video {
     opacity: 1;
-    height: calc(88vh - 120px);
+    height: -webkit-calc(88vh - 120px);
     top: 60px;
 }
 .header-video-wrapper .header-video {
