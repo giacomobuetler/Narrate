@@ -34,7 +34,7 @@ $(document).ready(function(){
     });
 });     
 </script>
-<div id="wrapper-navbar">
+<div id="wrapper-navbar sticky-top">
 
 
 		<header id="header" class="n-header">
