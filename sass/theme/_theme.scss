@@ -496,10 +496,10 @@ a {
 }
 
 @media only screen and (max-width: 420px) {
-    .h1 {
+    h1 {
         font-size: 50px;
     }
-    .h2 {
+    h2 {
         font-size: 45px;
         line-height: 55px;
     }
@@ -512,11 +512,11 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
-    .h1 {
+    h1 {
         font-size: 60px;
         line-height: 60px;
     }
-    .h2 {
+    h2 {
         font-size: 54px;
         line-height: 60px;
     }
