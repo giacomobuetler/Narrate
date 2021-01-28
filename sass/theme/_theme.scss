@@ -91,7 +91,7 @@ ul {
     position: fixed;
     z-index: 10000;
     border-radius: 30px;
-    background: #ff5c5c;
+    background: #EE3465;
     bottom: 15px;
     right: 15px;
     color: #fff;
@@ -99,7 +99,7 @@ ul {
     padding: 10px;
     font-size: 30px;
     cursor: pointer;
-    border: 1px solid #ff5c5c;
+    border: 1px solid #EE3465;
     min-width: 52px;
     max-width: 300px;
     -webkit-transition: all .3s ease;
@@ -107,7 +107,7 @@ ul {
 }
 
 .call-to-action-button:hover {
-    color: #ff5c5c;
+    color: #EE3465;
     background: #fff;
 }
 
