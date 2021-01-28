@@ -308,3 +308,111 @@ ul {
 .home_logos_logo {
     margin: 1.5rem;
 }
+
+
+/* Home */
+
+.hero-section {
+    padding-top: 80px;
+    padding-bottom: 146px;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.hero-section .section-subtitle {
+    margin-bottom: 36px;
+}
+
+.section-subtitle {
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    color: #18214D;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: -3px;
+    margin-bottom: 24px;
+}
+
+.video-block {
+    width: 97.5%;
+    padding-bottom: 59.67%;
+    border-radius: 5px;
+}
+
+.hero-desc {
+    background-color: #040817;
+    padding-top: 644px;
+}
+
+.row-first {
+    padding-bottom: 130px;
+}
+
+.section-buttons {
+    margin-bottom: 46px;
+}
+
+.section-buttons a {
+    height: 50px;
+    min-width: 130px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.btn-demo {
+    background-color: #EE3465;
+    border-color: #EE3465;
+    margin-right: 15px;
+}
+
+.btn-see-pricing {
+    background-color: #EFF2F6;
+    border-color: #B1BDCC;
+    margin-right: 25px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+a {
+    color: #18214D;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border 0.2s ease-in-out;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
