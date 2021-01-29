@@ -580,8 +580,12 @@ img.how-wework-icon {
         flex-direction: column;
     }
     .how-wework-desc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .how-wework-icon {
+        max-width: 14px;
     }
 }
 
