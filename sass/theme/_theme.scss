@@ -565,6 +565,23 @@ img.how-wework-icon {
     }
 }
 
+@media only screen and (max-width: 420px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    .how-wework-desc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .section-buttons {
         display: block !important;
@@ -585,19 +602,6 @@ img.how-wework-icon {
     }
     .video-block {
         width: 94.5%;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    h1 {
-        font-size: 50px;
-    }
-    h2 {
-        font-size: 45px;
-        line-height: 55px;
-    }
-    h3 {
-        font-size: 40px;
     }
 }
 
