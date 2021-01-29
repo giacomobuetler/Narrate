@@ -576,6 +576,9 @@ img.how-wework-icon {
     h3 {
         font-size: 40px;
     }
+    .how-wework-block {
+        flex-direction: column;
+    }
     .how-wework-desc {
         padding-left: 0;
         padding-right: 0;
