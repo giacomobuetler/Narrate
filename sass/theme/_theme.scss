@@ -312,12 +312,21 @@ ul {
 }
 
 
-/* Home */
+/* Sections */
 
 .hero-section {
     padding-top: 80px;
     padding-bottom: 146px;
 }
+
+.section-lightgrey {
+    padding-top: 120px;
+    padding-bottom: 124px;
+    background-color: #EFF2F6;
+}
+
+
+/* Home */
 
 .fadeIn {
     -webkit-animation-name: fadeIn;
@@ -485,6 +494,61 @@ a {
     padding-top: 25px;
 }
 
+.different {
+    background: #040817;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.how-wework-block {
+    display: flex;
+}
+
+.how-wework-desc {
+    padding-right: 60px;
+    padding-left: 40px;
+}
+
+.how-wework-icon.blue {
+    background: #345DEE;
+}
+
+.how-wework-icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    border-radius: 24px;
+}
+
+.how-wework-desc {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+img.how-wework-icon {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 25px;
+}
+
 @media only screen and (max-width: 375px) {
     .video-block {
         width: 92%;
@@ -530,5 +594,23 @@ a {
 @media only screen and (max-width: 991px) {
     .hero-section {
         padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .hero-section {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .how-works_icon-bk {
+        display: flex;
+        width: 80px;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        border-radius: 24px;
     }
 }
