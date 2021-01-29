@@ -1,6 +1,35 @@
 @import url('https://rsms.me/inter/inter.css');
+
+/* Colours */
+
+.blue {
+    background: #345DEE;
+}
+
+.orange {
+    background: #fc5a1e;
+}
+
+.violet {
+    background: #5856d6;
+}
+
+.pink {
+    background: #ee3465;
+}
+
+
+/* Typography */
+
 body {
     font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: -3px;
+    margin-bottom: 24px;
 }
 
 
@@ -385,13 +414,6 @@ p {
     margin-bottom: 0;
 }
 
-h2 {
-    font-size: 70px;
-    line-height: 80px;
-    letter-spacing: -3px;
-    margin-bottom: 24px;
-}
-
 .video-block {
     width: 97.5%;
     padding-bottom: 59.67%;
@@ -494,6 +516,9 @@ a {
     padding-top: 25px;
 }
 
+
+/* Different */
+
 .different {
     background: #040817;
     color: #fff;
@@ -503,6 +528,7 @@ a {
 
 .how-wework-block {
     display: flex;
+    padding-bottom: 40px;
 }
 
 .how-wework-desc {
@@ -510,28 +536,12 @@ a {
     padding-left: 40px;
 }
 
-.how-wework-icon.blue {
-    background: #345DEE;
-}
-
-.how-wework-icon {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+.orange .how-wework-icon {
     display: flex;
     width: 80px;
     height: 80px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     border-radius: 24px;
 }
