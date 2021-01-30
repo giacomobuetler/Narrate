@@ -47,14 +47,14 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 </ul>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
                                 <strong class="footer-title d-block">Socials</strong>
                                 <ul class="footer-list">
                                     <li><a target="_blank" href="https://www.producthunt.com/@shepovalovdenis/made">Producthunt</a></li>
                                     <li><a target="_blank" href="https://dribbble.com/Craftwork">Dribbble</a></li>
                                     <li><a target="_blank" href="https://www.behance.net/getcraftwork">Behance</a></li>
                                     <li><a target="_blank" href="https://www.instagram.com/getcraftwork/">Instagram</a></li>
-                                    <li><a target="_blank" href="https://twitter.com/GetCraftwork">Twitter</a></li>
-                                    <li><a target="_blank" href="https://medium.com/@Shepovalovdenis">Medium</a></li>
                                 </ul>
                             </div>
                         </div>
