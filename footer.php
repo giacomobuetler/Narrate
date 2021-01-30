@@ -19,12 +19,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 <footer>
             <div class="container footer-bottom">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-3 col-md-4">
                         <a class="footer-logo d-block" href="https://codely.ch">Codely</a>
                         <p class="footer-text mb-0">Hochwertige Webs
 							High-quality digital resources which make your design workflow faster and easier</p>
                     </div>
-                    <div class="col-lg-8 col-md-7">
+                    <div class="col-lg-9 col-md-7">
 				        <div class="row">
                             <div class="col-lg-3 col-md-6 col-sm-6 pl-0">
                                 <strong class="footer-title d-block">UX/UI Tools</strong>
@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li><a href="https://craftwork.design/downloads/spot-ios-ui-kit/" target="_blank">Spot</a></li>
                                 </ul>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-6 col-sm-6">
                                 <strong class="footer-title d-block">Illustrations</strong>
                                 <ul class="footer-list">
                                     <li><a target="_blank" href="https://stubborn.rocks/">Stubborn Illustrations</a></li>
@@ -47,15 +47,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 </ul>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
-                                <strong class="footer-title d-block">Legal</strong>
-                                <ul class="footer-list">
-                                    <li><a target="_blank" href="https://craftwork.design/license/">Licence</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/refund-policy/">Refund Policy</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/about-us/">About Us</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/contact-us/">Contact Us</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-2 col-md-6 col-sm-6">
                                 <strong class="footer-title d-block">Socials</strong>
                                 <ul class="footer-list">
                                     <li><a target="_blank" href="https://www.producthunt.com/@shepovalovdenis/made">Producthunt</a></li>
