@@ -143,6 +143,10 @@ footer {
     display: inline-block;
 }
 
+.footer-list li a:hover {
+    text-decoration: none;
+}
+
 .copyright {
     font-size: 14px;
     color: #18214d80;
