@@ -15,33 +15,68 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<footer class="footer upper-footer">
-	<div class="container">
-		<div class="row">
-			<div class="footer-section n-footer">
-				<div class="col-12 col-sm-4">
-						   
-					<span class="dd-footer-title eyebrow-title">SOCIAL</span>
-                        <ul class="social-wrapper footer-links">
-                            <li>
-                            	<a rel="nofollow" href="https://www.linkedin.com/company/" target="_blank" title="">
-                                    <span>LinkedIn</span>
-                                </a>
-                            </li>                                          
-						</ul>	
+
+<footer>
+            <div class="container footer-bottom">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <a class="footer-logo d-block" href="https://codely.ch">Codely</a>
+                        <p class="footer-text mb-0">Hochwertige Webs
+							High-quality digital resources which make your design workflow faster and easier</p>
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+				        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 pl-0">
+                                <strong class="footer-title d-block">UX/UI Tools</strong>
+                                <ul class="footer-list">
+                                    <li><a href="https://craftwork.design/downloads/singleton/" target="_blank">Singleton</a></li>
+                                    <li><a href="https://craftwork.design/downloads/silvercell-ios-ui-kit/" target="_blank">Silvercell</a></li>
+                                    <li><a href="https://craftwork.design/downloads/replica-android-ui-kit/" target="_blank">Replica</a></li>
+                                    <li><a href="https://craftwork.design/downloads/spot-ios-ui-kit/" target="_blank">Spot</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <strong class="footer-title d-block">Illustrations</strong>
+                                <ul class="footer-list">
+                                    <li><a target="_blank" href="https://stubborn.rocks/">Stubborn Illustrations</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/silky-illustrations/">Silky Illustrations</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/oslo-illustrations/">OSLO Illustrations</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/no-comments-illustrations/">No Comments</a></li>
+                                    <li><a target="_blank" href="https://struct.rocks/">Struct Illustrations</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/follow-me-illustrations/">Follow Me Illustrations</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <strong class="footer-title d-block">Legal</strong>
+                                <ul class="footer-list">
+                                    <li><a target="_blank" href="https://craftwork.design/license/">Licence</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/refund-policy/">Refund Policy</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/about-us/">About Us</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/contact-us/">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-6 col-sm-6">
+                                <strong class="footer-title d-block">Socials</strong>
+                                <ul class="footer-list">
+                                    <li><a target="_blank" href="https://www.producthunt.com/@shepovalovdenis/made">Producthunt</a></li>
+                                    <li><a target="_blank" href="https://dribbble.com/Craftwork">Dribbble</a></li>
+                                    <li><a target="_blank" href="https://www.behance.net/getcraftwork">Behance</a></li>
+                                    <li><a target="_blank" href="https://www.instagram.com/getcraftwork/">Instagram</a></li>
+                                    <li><a target="_blank" href="https://twitter.com/GetCraftwork">Twitter</a></li>
+                                    <li><a target="_blank" href="https://medium.com/@Shepovalovdenis">Medium</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-			</div>
-		</div>
-	</div>
-</footer>
-<footer class="footer lower-footer">
-	<div class="container">
-		<div class="row">
-				<div class="col">
-				© Narrate - Digitalagentur
-				</div>
-				<div class="col">
-						<?php
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="footer-text copyright mb-0">Copyright © 2018-2021 Codely</p>
+					</div>
+					<div class="col-lg-6">
+					<?php
 						wp_nav_menu(
 							array(
 								'theme_location'  => 'footer-menu',
@@ -55,10 +90,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 							)
 						);
 						?>
-					</div>
-		</div>
-	</div>
-</footer>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 <button class="call-to-action-button">
 	<div class="call-to-action-text">
