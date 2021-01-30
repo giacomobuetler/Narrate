@@ -66,7 +66,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="col-lg-6">
                         <p class="footer-text copyright mb-0">Copyright © 2018-2021 Codely</p>
 					</div>
-					<div class="col-lg-6">
+					<div class="footer-text col-lg-6">
 					<?php
 						wp_nav_menu(
 							array(
