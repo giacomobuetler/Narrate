@@ -28,12 +28,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 				        <div class="row">
                             <div class="col-lg-3 col-md-6 col-sm-6 pl-0">
                                 <strong class="footer-title d-block">UX/UI Tools</strong>
-                                <ul class="footer-list">
-                                    <li><a href="https://craftwork.design/downloads/singleton/" target="_blank">Singleton</a></li>
-                                    <li><a href="https://craftwork.design/downloads/silvercell-ios-ui-kit/" target="_blank">Silvercell</a></li>
-                                    <li><a href="https://craftwork.design/downloads/replica-android-ui-kit/" target="_blank">Replica</a></li>
-                                    <li><a href="https://craftwork.design/downloads/spot-ios-ui-kit/" target="_blank">Spot</a></li>
-                                </ul>
+								Codely GmbH
+								Farbgutstrasse 3
+								9008 St.Gallen
+
+								info@codely.ch
+								071 571 37 22
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <strong class="footer-title d-block">Illustrations</strong>
