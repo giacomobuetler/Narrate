@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             <div class="col-lg-3 col-md-6 col-sm-6">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
-                                <strong class="footer-title d-block">Socials</strong>
+                                <strong class="footer-title d-block">Follow us</strong>
                                 <ul class="footer-list">
                                     <li><a target="_blank" href="https://www.producthunt.com/@shepovalovdenis/made">Producthunt</a></li>
                                     <li><a target="_blank" href="https://dribbble.com/Craftwork">Dribbble</a></li>
