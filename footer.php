@@ -24,9 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <p class="footer-text mb-0">Hochwertige Webs
 							High-quality digital resources which make your design workflow faster and easier</p>
                     </div>
-                    <div class="col-lg-9 col-md-7">
-				        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4">
                                 <strong class="footer-title d-block">Codely GmbH</strong>
 							Farbgutstrasse 3<br>
 							CH-9008 St.Gallen<br>
@@ -35,7 +33,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<a href="tel:+41 71 571 37 22">+41 71 571 37 22</a><br>
 							<a href="mailto:info@codely.ch">info@codely.ch<br></a>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="col-lg-3 col-md-4">
                                 <strong class="footer-title d-block">Leistungen</strong>
                                 <ul class="footer-list">
                                     <li><a target="_blank" href="https://stubborn.rocks/">Stubborn Illustrations</a></li>
@@ -45,8 +43,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li><a target="_blank" href="https://struct.rocks/">Struct Illustrations</a></li>
                                     <li><a target="_blank" href="https://craftwork.design/follow-me-illustrations/">Follow Me Illustrations</a></li>
                                 </ul>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
+                    </div>
+					<div class="col-lg-3 col-md-4">
                                 <strong class="footer-title d-block">Follow us</strong>
                                 <ul class="footer-list">
                                     <li><a target="_blank" href="https://www.producthunt.com/@shepovalovdenis/made">Producthunt</a></li>
