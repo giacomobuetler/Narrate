@@ -53,7 +53,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li><a target="_blank" href="https://www.instagram.com/getcraftwork/">Instagram</a></li>
                                 </ul>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
