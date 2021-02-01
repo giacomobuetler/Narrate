@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-lg-9 col-md-7">
 				        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-6 pl-0">
+                            <div class="col-lg-4 col-md-6 col-sm-6 pl-0">
                                 <strong class="footer-title d-block">UX/UI Tools</strong>
 								Codely GmbH
 								Farbgutstrasse 3
@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								info@codely.ch
 								071 571 37 22
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
                                 <strong class="footer-title d-block">Services</strong>
                                 <ul class="footer-list">
                                     <li><a target="_blank" href="https://stubborn.rocks/">Stubborn Illustrations</a></li>
@@ -46,9 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                     <li><a target="_blank" href="https://craftwork.design/follow-me-illustrations/">Follow Me Illustrations</a></li>
                                 </ul>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
                                 <strong class="footer-title d-block">Follow us</strong>
                                 <ul class="footer-list">
                                     <li><a target="_blank" href="https://www.producthunt.com/@shepovalovdenis/made">Producthunt</a></li>
