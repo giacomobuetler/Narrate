@@ -22,25 +22,18 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="col-lg-3 col-md-4">
                         <a class="footer-logo d-block" href="https://codely.ch">Codely</a>
                         <p class="footer-text mb-0">Hochwertige Webs
-							High-quality digital resources which make your design workflow faster and easier</p><br>
-							Codely GmbH<br>
+							High-quality digital resources which make your design workflow faster and easier</p>
+                    </div>
+                    <div class="col-lg-9 col-md-7">
+				        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <strong class="footer-title d-block">Codely GmbH</strong>
 							Farbgutstrasse 3<br>
 							CH-9008 St.Gallen<br>
 							Schweiz<br>
 							<br>
 							<a href="tel:+41 71 571 37 22">+41 71 571 37 22</a><br>
-							<a href="mailto:info@codely.ch">info@codely.ch</a>
-                    </div>
-                    <div class="col-lg-9 col-md-7">
-				        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <strong class="footer-title d-block">UX/UI Tools</strong>
-								Codely GmbH
-								Farbgutstrasse 3
-								9008 St.Gallen
-
-								info@codely.ch
-								071 571 37 22
+							<a href="mailto:info@codely.ch">info@codely.ch<br></a>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <strong class="footer-title d-block">Leistungen</strong>
