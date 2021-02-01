@@ -969,7 +969,7 @@ img.how-wework-icon {
         line-height: 60px;
     }
     .hero-desc {
-        padding-top: 300px;
+        padding-top: 210px;
     }
     .video-block {
         width: 94.5%;
@@ -978,6 +978,12 @@ img.how-wework-icon {
         width: 48px;
         height: 48px;
         border-radius: 14px;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 767px) {
+    .hero-desc {
+        padding-top: 210px;
     }
 }
 
