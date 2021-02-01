@@ -557,7 +557,7 @@ p {
 
 .hero-desc {
     background-color: #040817;
-    padding-top: 570px;
+    padding-top: 660px;
     padding-bottom: 40px;
 }
 
@@ -762,6 +762,10 @@ img.how-wework-icon {
     h3 {
         font-size: 40px;
     }
+    .hero-desc {
+        padding-top: 230px;
+        padding-bottom: 20px;
+    }
     .how-wework-block {
         flex-direction: column;
     }
@@ -793,6 +797,9 @@ img.how-wework-icon {
         font-size: 54px;
         line-height: 60px;
     }
+    .hero-desc {
+        padding-top: 300px;
+    }
     .video-block {
         width: 94.5%;
     }
@@ -807,6 +814,9 @@ img.how-wework-icon {
     .hero-section {
         padding-bottom: 50px;
     }
+    .hero-desc {
+        padding-top: 430px;
+    }
     .different {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -816,6 +826,12 @@ img.how-wework-icon {
 @media screen and (min-width: 991px) {
     .hero-section {
         padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .hero-desc {
+        padding-top: 560px;
     }
 }
 

@@ -36,7 +36,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								071 571 37 22
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
-                                <strong class="footer-title d-block">Illustrations</strong>
+                                <strong class="footer-title d-block">Services</strong>
                                 <ul class="footer-list">
                                     <li><a target="_blank" href="https://stubborn.rocks/">Stubborn Illustrations</a></li>
                                     <li><a target="_blank" href="https://craftwork.design/silky-illustrations/">Silky Illustrations</a></li>
