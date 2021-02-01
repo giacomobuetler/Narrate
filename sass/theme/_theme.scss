@@ -652,6 +652,40 @@ a {
 }
 
 
+/* Contact */
+
+.map iframe {
+    border-radius: 12px;
+}
+
+.section-thirteenth .colored-box.blue {
+    background-color: #345DEE;
+}
+
+.section-thirteenth .colored-box {
+    padding: 38px 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -1px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.colored-box.blue {
+    padding: 38px 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -1px;
+    color: #fff;
+    border-radius: 12px;
+    flex: 1;
+}
+
+
 /* Different */
 
 .different {
