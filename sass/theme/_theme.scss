@@ -193,8 +193,50 @@ ul {
 }
 
 
-/* Footer
-*/
+/* CTA-Contact */
+
+.cta-contact {
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(91.56deg, #345dee 0, #5856d6 122.55%);
+}
+
+.signup-banner {
+    padding-top: 60px;
+}
+
+.signup-banner-heading {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button.light {
+    color: #334ac0;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.5rem rgba(103, 110, 144, .2), 0 0 0 0.1rem rgba(103, 110, 144, .05);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.4px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.button.big {
+    padding: 10px 20px;
+}
+
+
+/* Footer */
 
 footer {
     padding: 40px 0px;
