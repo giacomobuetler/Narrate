@@ -514,12 +514,13 @@ footer {
     color: #fff;
 }
 
-.home_logos {
+.home-logos {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 1.5rem;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
 }
 
 .home_logos_logo {
