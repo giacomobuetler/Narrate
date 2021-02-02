@@ -785,6 +785,25 @@ a {
 }
 
 
+/* Work Items */
+
+.work-item {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    max-height: 660px;
+    min-height: 660px;
+    margin-bottom: 40px;
+    padding: 40px;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgba(15, 3, 34, .1);
+    text-decoration: none;
+}
+
+
 /* Contact */
 
 .map iframe {
