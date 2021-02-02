@@ -924,7 +924,7 @@ img.how-wework-icon {
 
 @media screen and (max-width: 420px) {
     .hero-desc {
-        padding-top: 70px;
+        padding-top: 120px !important;
     }
 }
 
@@ -987,7 +987,7 @@ img.how-wework-icon {
     }
 }
 
-@media only screen and (min-width: 420px) and (max-width: 767px) {
+@media only screen and (min-width: 421px) and (max-width: 767px) {
     .hero-desc {
         padding-top: 210px;
     }
