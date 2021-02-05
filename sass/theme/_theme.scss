@@ -162,7 +162,7 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: left;
-    border-radius: 24px;
+    border-radius: 20px;
     box-shadow: 0 0 10px -1px rgba(0, 0, 0, .2);
 }
 
@@ -799,7 +799,7 @@ a {
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
-    border-radius: 24px;
+    border-radius: 20px;
     background-color: rgba(15, 3, 34, .1);
     text-decoration: none;
 }
@@ -895,7 +895,7 @@ a {
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
-    border-radius: 24px;
+    border-radius: 20px;
 }
 
 .fas.how-wework-icon {
@@ -1088,6 +1088,6 @@ img.how-wework-icon {
         justify-content: center;
         align-items: center;
         flex: 0 0 auto;
-        border-radius: 24px;
+        border-radius: 20px;
     }
 }
