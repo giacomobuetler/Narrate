@@ -794,7 +794,7 @@ a {
     overflow: hidden;
     max-height: 660px;
     min-height: 660px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding: 40px;
     justify-content: space-between;
     -webkit-box-align: center;
@@ -802,6 +802,32 @@ a {
     border-radius: 24px;
     background-color: rgba(15, 3, 34, .1);
     text-decoration: none;
+}
+
+.portfolio-row-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.work-item.work-item-half {
+    padding-top: 40px;
+    padding-bottom: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 
