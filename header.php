@@ -37,6 +37,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</h2>
 
 			<div class="container">
+			<div class="row justify-content-between align-items-center flex-nowrap">
+
 
 					<!-- Your site title as branding in the menu -->
 					<?php if ( ! has_custom_logo() ) { ?>
@@ -78,6 +80,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				);
 				?>
 			<?php if ( 'container' === $container ) : ?>
+			</div>
 			</div><!-- .container -->
 			<?php endif; ?>
 
