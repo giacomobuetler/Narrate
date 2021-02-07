@@ -23,6 +23,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});     
+</script>
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
@@ -69,9 +79,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
+						'container_class' => 'col-auto col-static d-none d-md-block',
+						'container_id'    => '',
+						'menu_class'      => 'n-megamenu',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
