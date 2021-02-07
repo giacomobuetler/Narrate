@@ -24,26 +24,33 @@ $container = get_theme_mod( 'understrap_container_type' );
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site" id="page">
-<div id="wrapper-navbar sticky-top">
 
+	<!-- ******************* The Navbar Area ******************* -->
+	<div id="wrapper-navbar">
 
-		<header id="header" class="n-header">
+		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
+		<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
 
+			<h2 id="main-nav-label" class="sr-only">
+				<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
+			</h2>
 
-		<div class="container">
-		<div class="row justify-content-between align-items-center flex-nowrap">
+		<?php if ( 'container' === $container ) : ?>
+			<div class="container">
+		<?php endif; ?>
 
+					<!-- Your site title as branding in the menu -->
 					<?php if ( ! has_custom_logo() ) { ?>
 
 						<?php if ( is_front_page() && is_home() ) : ?>
-							<div class="col-auto">
+
 							<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
-							</div>	
+
 						<?php else : ?>
-							<div class="col-auto">
+
 							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
-							</div>
+
 						<?php endif; ?>
 
 						<?php
@@ -51,20 +58,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_custom_logo();
 					}
 					?>
+					<!-- end custom logo -->
 
-					<div class="col-auto d-md-none align-self-end">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-						<span class="navbar-toggler-icon"></span>
-					</button>            
-				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
+				<!-- The WordPress Menu goes here -->
 				<?php
 				wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
-						'container_class' => 'col-auto col-static d-none d-md-block',
-						'container_id'    => '',
-						'menu_class'      => 'n-megamenu',
+						'container_class' => 'collapse navbar-collapse',
+						'container_id'    => 'navbarNavDropdown',
+						'menu_class'      => 'navbar-nav ml-auto',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
@@ -72,9 +79,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				);
 				?>
-</div>
 			<?php if ( 'container' === $container ) : ?>
-			</div>
+			</div><!-- .container -->
 			<?php endif; ?>
-</header>
-</div>
+
+		</nav><!-- .site-navigation -->
+
+	</div><!-- #wrapper-navbar end -->
