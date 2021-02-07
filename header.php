@@ -69,9 +69,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
+						'container_class' => 'col-auto col-static d-none d-md-block collapse navbar-collapse',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
+						'menu_class'      => 'navbar-nav ml-auto n-megamenu',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
@@ -79,6 +79,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				);
 				?>
+
+
+
+
+
 			<?php if ( 'container' === $container ) : ?>
 			</div>
 			</div><!-- .container -->
