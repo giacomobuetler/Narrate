@@ -830,8 +830,13 @@ a {
     justify-content: space-between;
 }
 
+.work-item a:hover {
+    text-decoration: none;
+    color: #18214d;
+}
 
-/* Work Item */
+
+/* Work Item Testimonials */
 
 .testimonial {
     display: -webkit-box;
