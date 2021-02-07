@@ -24,16 +24,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site" id="page">
-<script>
-/* $(document).ready(function(){
-    $(".dropdown").hover(function(){
-        var dropdownMenu = $(this).children(".dropdown-menu");
-        if(dropdownMenu.is(":visible")){
-            dropdownMenu.parent().toggleClass("open");
-        }
-    });
-});     */ 
-</script>
 <div id="wrapper-navbar sticky-top">
 
 
