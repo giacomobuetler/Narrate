@@ -744,9 +744,6 @@ a {
 }
 
 .hire-cover-right {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     padding-right: 0px;
     padding-left: 0px;
@@ -820,23 +817,13 @@ a {
 /* Work Item Testimonials */
 
 .testimonial {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     margin-right: auto;
     margin-bottom: 60px;
     margin-left: auto;
     padding-right: 20px;
     padding-left: 20px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center;
     margin-top: 60px;
