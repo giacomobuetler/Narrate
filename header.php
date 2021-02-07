@@ -24,17 +24,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site" id="page">
+	
+<div id="wrapper-navbar sticky-top">
 
-	<!-- ******************* The Navbar Area ******************* -->
-	<div id="wrapper-navbar">
 
-		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
-
-		<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
-
-			<h2 id="main-nav-label" class="sr-only">
-				<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
-			</h2>
+		<header id="header" class="n-header">
 
 			<div class="container">
 
