@@ -769,18 +769,10 @@ a {
     position: relative;
     left: 0px;
     bottom: 0px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     margin-right: 15px;
     margin-bottom: 15px;
-    -webkit-align-self: flex-end;
-    -ms-flex-item-align: end;
     align-self: flex-end;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
     flex: 0 auto;
     color: hsla(0, 0%, 100%, 0.5);
 }
@@ -797,7 +789,6 @@ a {
     margin-bottom: 30px;
     padding: 40px;
     justify-content: space-between;
-    -webkit-box-align: center;
     align-items: center;
     border-radius: 20px;
     background-color: rgba(15, 3, 34, .1);
@@ -805,34 +796,24 @@ a {
 }
 
 .portfolio-row-grid {
-    display: -ms-grid;
     display: grid;
     grid-auto-columns: 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 0;
-    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
 }
 
 .work-item.work-item-half {
     padding-top: 40px;
     padding-bottom: 0;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .work-item a:hover {
-    text-decoration: none;
-    color: #18214d;
+    text-decoration: none !important;
+    color: #18214d !important;
 }
 
 
