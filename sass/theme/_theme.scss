@@ -55,7 +55,7 @@ h2 {
     transition: opacity .25s ease, visibility 0s 0s;
 }
 
-.nav-link:hover::after {
+a.nav-link:hover::after {
     content: '';
     position: absolute;
     width: 100%;
