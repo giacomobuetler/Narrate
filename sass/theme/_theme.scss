@@ -742,11 +742,10 @@ a {
     flex: 1;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: #40a16a;
     min-height: 480px;
 }
 
-.hire-cover-right {
+.leistungen-commerce {
     display: flex;
     padding-right: 0px;
     padding-left: 0px;
@@ -754,8 +753,8 @@ a {
     flex: 1;
     background-image: url(http://codely.ch/app/wp-content/uploads/2021/02/eCommerce.jpg);
     background-position: 50% 100%, 0px 0px;
-    background-size: contain, auto;
-    background-repeat: no-repeat, repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .product-header__credits {
