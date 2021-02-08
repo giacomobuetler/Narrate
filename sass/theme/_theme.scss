@@ -745,6 +745,18 @@ a {
     min-height: 480px;
 }
 
+.leistungen-webentwicklung {
+    display: flex;
+    padding-right: 0px;
+    padding-left: 0px;
+    justify-content: flex-end;
+    flex: 1;
+    background-image: url(http://codely.ch/app/wp-content/uploads/2021/02/Website.jpg);
+    background-position: 50% 100%, 0px 0px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
 .leistungen-commerce {
     display: flex;
     padding-right: 0px;
@@ -752,6 +764,30 @@ a {
     justify-content: flex-end;
     flex: 1;
     background-image: url(http://codely.ch/app/wp-content/uploads/2021/02/eCommerce.jpg);
+    background-position: 50% 100%, 0px 0px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.leistungen-webapps {
+    display: flex;
+    padding-right: 0px;
+    padding-left: 0px;
+    justify-content: flex-end;
+    flex: 1;
+    background-image: url(http://codely.ch/app/wp-content/uploads/2021/02/Webapps.jpg);
+    background-position: 50% 100%, 0px 0px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.leistungen-analytics {
+    display: flex;
+    padding-right: 0px;
+    padding-left: 0px;
+    justify-content: flex-end;
+    flex: 1;
+    background-image: url(http://codely.ch/app/wp-content/uploads/2021/02/Data-Analytics.jpg);
     background-position: 50% 100%, 0px 0px;
     background-size: auto;
     background-repeat: no-repeat;
