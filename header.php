@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>	
 						<?php else : ?>
 							<div class="col-auto">
-							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?><img src="https://codely.ch/app/wp-content/uploads/2021/02/codely-w.svg" loading="lazy" alt="" class="logo-codely"></a>
+							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><img src="https://codely.ch/app/wp-content/uploads/2021/02/codely-w.svg" loading="lazy" alt="" class="logo-codely"></a>
 							</div>
 						<?php endif; ?>
 
