@@ -47,7 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php if ( is_front_page() && is_home() ) : ?>
 							<div class="col-auto">
-							<a class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><img src="https://codely.ch/app/wp-content/uploads/2021/02/codely.svg" loading="lazy" alt="" class="logo-codely"><?php bloginfo( 'name' ); ?></a>
+							<img src="https://codely.ch/app/wp-content/uploads/2021/02/codely.svg" loading="lazy" alt="" class="logo-codely">
 							</div>	
 						<?php else : ?>
 							<div class="col-auto">
