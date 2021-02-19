@@ -25,14 +25,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 							High-quality digital resources which make your design workflow faster and easier</p>
                     </div>
                     <div class="col-lg-3 col-md-4">
-                                <strong class="footer-title d-block">Codely GmbH</strong>
+								<strong class="footer-title d-block">Codely GmbH</strong>
+								
+							<p class="footer-text mb-0">
 							Farbgutstrasse 3<br>
 							CH-9008 St.Gallen<br>
 							Schweiz<br>
 							<br>
 							<a href="tel:+41 71 571 37 22">+41 71 571 37 22</a><br>
 							<a href="mailto:info@codely.ch">info@codely.ch<br></a>
-                            </div>
+							</p>
+					</div>
 					<div class="col-lg-3 col-md-4">
                                 <strong class="footer-title d-block">Leistungen</strong>
                                 <ul class="footer-list">
