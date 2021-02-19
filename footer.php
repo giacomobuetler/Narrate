@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <footer>
             <div class="container footer-content">
                 <div class="row">
-                    <div class="col-lg-3 col-md-4">
+					<div class="col-lg-3 col-md-4 d-flex flex-column align-items-start">
 						<img src="https://codely.ch/app/wp-content/uploads/2021/02/codely-w.svg" loading="lazy" alt="" class="logo-codely">
                         <p class="footer-text mb-0">Hochwertige Webs
 							High-quality digital resources which make your design workflow faster and easier</p>
