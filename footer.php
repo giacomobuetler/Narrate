@@ -58,7 +58,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p class="footer-text copyright mb-0">Copyright © 2018-2021 Codely</p>
+                        <p class="footer-text copyright mb-0">© 2021 Codely GmbH. All rights reserved.</p>
 					</div>
 					<div class="footer-text col-lg-6">
 					<?php
