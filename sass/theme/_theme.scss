@@ -267,6 +267,28 @@ ul {
 /* Footer */
 
 footer {
+    background: #141415 !important;
+    color: #616161;
+}
+
+.legal {
+    border-top: 1px solid #212121;
+    color: #707070;
+    padding: 20px 0;
+}
+
+.logo-codely {
+    max-height: 30px;
+    margin-bottom: 23px;
+    margin-top: 8px;
+    float: left;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+}
+
+footer {
     padding: 40px 0px;
 }
 
