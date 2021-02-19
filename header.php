@@ -20,8 +20,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 
-		<script src="https://kit.fontawesome.com/bc90823a43.js" crossorigin="anonymous"></script>
-
+	
 </head>
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
@@ -47,13 +46,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php if ( is_front_page() && is_home() ) : ?>
 							<div class="col-auto">
-							<a class="navbar-brand mb-0"><img src="https://codely.ch/app/wp-content/uploads/2021/02/codely.svg" loading="lazy" alt="" class="logo-codely"></a>
+							<a class="navbar-brand mb-0">
+								<img src="https://codely.ch/app/wp-content/uploads/2021/02/codely.svg" alt="" class="logo-codely">
+								</a>
 							</div>	
 						<?php else : ?>
 							<div class="col-auto">
-							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><img src="https://codely.ch/app/wp-content/uploads/2021/02/codely.svg" loading="lazy" alt="" class="logo-codely"></a>
-</a>
-							</div>
+							<a class="navbar-brand mb-0">
+								<img src="https://codely.ch/app/wp-content/uploads/2021/02/codely.svg" alt="" class="logo-codely">
+								</a>							</div>
 						<?php endif; ?>
 
 						<?php
