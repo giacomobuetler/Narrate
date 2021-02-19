@@ -20,7 +20,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="container footer-content">
                 <div class="row">
                     <div class="col-lg-3 col-md-4">
-                        <a class="footer-logo d-block" href="https://codely.ch">Codely</a>
+						<img src="https://codely.ch/app/wp-content/uploads/2021/02/codely-w.svg" loading="lazy" alt="" class="logo-codely">
                         <p class="footer-text mb-0">Hochwertige Webs
 							High-quality digital resources which make your design workflow faster and easier</p>
                     </div>
