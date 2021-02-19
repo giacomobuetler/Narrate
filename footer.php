@@ -17,7 +17,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 <footer>
-            <div class="container footer-bottom">
+            <div class="container footer-content">
                 <div class="row">
                     <div class="col-lg-3 col-md-4">
                         <a class="footer-logo d-block" href="https://codely.ch">Codely</a>
@@ -55,7 +55,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container footer-legal">
                 <div class="row">
                     <div class="col-lg-6">
                         <p class="footer-text copyright mb-0">© 2021 Codely GmbH - All rights reserved.</p>

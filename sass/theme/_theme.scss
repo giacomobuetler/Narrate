@@ -266,7 +266,7 @@ ul {
 
 /* Footer */
 
-.legal {
+.footer-legal {
     border-top: 1px solid #212121;
     color: #707070;
     padding: 20px 0;
@@ -279,12 +279,13 @@ ul {
     float: left;
 }
 
-.footer-bottom {
+.footer-content {
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 footer {
-    padding: 40px 0px;
+    padding-top: 40px;
     background: #141415 !important;
     color: #616161;
 }
