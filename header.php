@@ -37,7 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<h2 id="main-nav-label" class="sr-only">
 				<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
 			</h2>
-
+			
 			<div class="container">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<img src="https://codely.ch/app/wp-content/uploads/2021/02/codely.svg" loading="lazy" alt="" class="logo-codely">
