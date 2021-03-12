@@ -1314,6 +1314,15 @@ h4 {
     }
 }
 
+@media screen and (max-width: 479px) {
+    .grid.extras {
+        grid-auto-columns: minmax(173px, auto);
+        grid-column-gap: 0.5rem;
+        grid-row-gap: 0.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(173px, auto));
+    }
+}
+
 @media only screen and (max-width: 575px) {
     .section-buttons {
         display: block !important;
@@ -1379,6 +1388,10 @@ h4 {
 @media screen and (max-width: 991px) {
     .work-item {
         flex-direction: column;
+    }
+    .grid.extras {
+        justify-content: center;
+        grid-template-columns: minmax(auto, 260px) minmax(auto, 260px);
     }
 }
 
