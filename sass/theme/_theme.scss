@@ -32,6 +32,9 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    color: #212121;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 h2 {
@@ -1355,7 +1358,7 @@ h4 {
 
 @media screen and (min-width: 991px) {
     .hero-section {
-        padding-bottom: 50px;
+        padding-bottom: 80px;
     }
 }
 
