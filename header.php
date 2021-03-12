@@ -22,7 +22,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<script src="https://kit.fontawesome.com/bc90823a43.js" crossorigin="anonymous"></script>
 
-	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QPCHLW0ZHK"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-QPCHLW0ZHK');
+	gtag('config', 'G-QPCHLW0ZHK', { 'anonymize_ip': true });
+	</script>
+
 </head>
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
