@@ -1315,11 +1315,21 @@ h4 {
 }
 
 @media screen and (max-width: 479px) {
+    .title-section {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
     .grid.extras {
         grid-auto-columns: minmax(173px, auto);
         grid-column-gap: 0.5rem;
         grid-row-gap: 0.5rem;
         grid-template-columns: repeat(auto-fit, minmax(173px, auto));
+    }
+    .card.extras {
+        max-width: 18rem;
+        padding: 1rem 1rem 0;
+        border-radius: .5rem;
+        text-align: center;
     }
 }
 
@@ -1354,6 +1364,10 @@ h4 {
     }
     .fas.how-wework-icon {
         font-size: 24px;
+    }
+    .card.extras {
+        height: 100%;
+        max-height: 16.625rem;
     }
 }
 
