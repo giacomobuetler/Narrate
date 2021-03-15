@@ -59,6 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</h2>
 
 			<div class="container">
+				<div class="row">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<img src="https://codely.ch/app/wp-content/uploads/2021/02/codely.svg" loading="lazy" alt="" class="logo">
 				</a>
@@ -84,6 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				?>
 
 			<?php if ( 'container' === $container ) : ?>
+			</div>
 			</div>
 			</div><!-- .container -->
 			<?php endif; ?>
