@@ -49,10 +49,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="col-lg-3 col-md-4">
                                 <strong class="footer-title d-block">Follow us</strong>
                                 <ul class="footer-list">
-                                    <li><a target="_blank" href="https://www.producthunt.com/@shepovalovdenis/made">Producthunt</a></li>
+                                    <li><a target="_blank" href="https://linkedin.com/@shepovalovdenis/made">Producthunt</a></li>
                                     <li><a target="_blank" href="https://dribbble.com/Craftwork">Dribbble</a></li>
                                     <li><a target="_blank" href="https://www.behance.net/getcraftwork">Behance</a></li>
-                                    <li><a target="_blank" href="https://www.instagram.com/getcraftwork/">Instagram</a></li>
+                                    <li><a target="_blank" href="https://instagram.com/getcraftwork/">Instagram</a></li>
                                 </ul>
 					</div>
                 </div>
