@@ -38,21 +38,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="col-lg-3 col-md-4">
                                 <strong class="footer-title d-block">Leistungen</strong>
                                 <ul class="footer-list">
-                                    <li><a target="_blank" href="https://stubborn.rocks/">Stubborn Illustrations</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/silky-illustrations/">Silky Illustrations</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/oslo-illustrations/">OSLO Illustrations</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/no-comments-illustrations/">No Comments</a></li>
-                                    <li><a target="_blank" href="https://struct.rocks/">Struct Illustrations</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/follow-me-illustrations/">Follow Me Illustrations</a></li>
+                                    <li><a target="_blank" href="https://stubborn.rocks/">Webentwicklung</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/silky-illustrations/">E-Commerce</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/oslo-illustrations/">Webapplikationen</a></li>
+                                    <li><a target="_blank" href="https://craftwork.design/no-comments-illustrations/">Data & Analytics</a></li>
                                 </ul>
                     </div>
 					<div class="col-lg-3 col-md-4">
                                 <strong class="footer-title d-block">Follow us</strong>
                                 <ul class="footer-list">
-                                    <li><a target="_blank" href="https://linkedin.com/@shepovalovdenis/made">Producthunt</a></li>
-                                    <li><a target="_blank" href="https://dribbble.com/Craftwork">Dribbble</a></li>
-                                    <li><a target="_blank" href="https://www.behance.net/getcraftwork">Behance</a></li>
-                                    <li><a target="_blank" href="https://instagram.com/getcraftwork/">Instagram</a></li>
+                                    <li><a target="_blank" href="https://linkedin.com/@shepovalovdenis/made">LinkedIn</a></li>
+                                    <li><a target="_blank" href="https://dribbble.com/Craftwork">Facebook</a></li>
+                                    <li><a target="_blank" href="https://www.behance.net/getcraftwork">Instagram</a></li>
                                 </ul>
 					</div>
                 </div>
