@@ -505,6 +505,32 @@ footer {
 }
 
 
+/* Links */
+
+.link-card {
+    padding: .5rem .75rem;
+    border-radius: 1.1875rem;
+    background-color: #345dee;
+    text-decoration: none;
+}
+
+.link-card:hover .link-text {
+    opacity: 1 !important;
+    display: inline-block !important;
+}
+
+.link-text {
+    display: inline-block;
+    font-weight: 600 !important;
+}
+
+.link-text.hidden {
+    display: none;
+    margin-left: .4rem;
+    opacity: 0;
+}
+
+
 /* CTA */
 
 .call-to-action-button {
@@ -1380,6 +1406,12 @@ h4 {
 .p2.subpara {
     max-width: 29.25rem;
     color: #707070;
+}
+
+.p2 {
+    font-size: 1.25rem;
+    line-height: 1.35em;
+    letter-spacing: -.0375rem;
 }
 
 .p3 {
