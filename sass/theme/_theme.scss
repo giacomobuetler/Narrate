@@ -230,6 +230,11 @@ ul {
     color: hsla(0, 0%, 98%, .6);
 }
 
+.wol-show-more:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
 .card-wol {
     padding: 2rem 1.5rem;
     border-radius: .75rem;
