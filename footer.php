@@ -38,10 +38,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="col-lg-3 col-md-4">
                                 <strong class="footer-title d-block">Leistungen</strong>
                                 <ul class="footer-list">
-                                    <li><a target="_blank" href="https://stubborn.rocks/">Webentwicklung</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/silky-illustrations/">E-Commerce</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/oslo-illustrations/">Webapplikationen</a></li>
-                                    <li><a target="_blank" href="https://craftwork.design/no-comments-illustrations/">Data & Analytics</a></li>
+                                    <li><a target="_blank" href="https://codely.ch/leistungen/">Webentwicklung</a></li>
+                                    <li><a target="_blank" href="https://codely.ch/leistungen/">E-Commerce</a></li>
+                                    <li><a target="_blank" href="https://codely.ch/leistungen/">Webapplikationen</a></li>
+                                    <li><a target="_blank" href="https://codely.ch/leistungen/">Data & Analytics</a></li>
                                 </ul>
                     </div>
 					<div class="col-lg-3 col-md-4">
