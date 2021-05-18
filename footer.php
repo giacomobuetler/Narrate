@@ -47,9 +47,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="col-lg-3 col-md-4">
                                 <strong class="footer-title d-block">Follow us</strong>
                                 <ul class="footer-list">
-                                    <li><a target="_blank" href="https://linkedin.com/@shepovalovdenis/made">LinkedIn</a></li>
-                                    <li><a target="_blank" href="https://dribbble.com/Craftwork">Facebook</a></li>
-                                    <li><a target="_blank" href="https://www.behance.net/getcraftwork">Instagram</a></li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/company/codely-gmbh/">LinkedIn</a></li>
+                                    <li><a target="_blank" href="https://web.facebook.com/Codely-101424375352629">Facebook</a></li>
                                 </ul>
 					</div>
                 </div>
